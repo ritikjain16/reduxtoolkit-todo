@@ -1,6 +1,7 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
-const backendURL = "http://localhost:5000";
+// const backendURL = "http://localhost:5000";
+const backendURL = "https://reduxtoolkit-todo.vercel.app";
 
 const initialState = {
   alltodos: [],
